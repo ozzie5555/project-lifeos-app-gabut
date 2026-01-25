@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;       /* Hitam Pekat */
+  --foreground: #ffffff;       /* Putih Bersih */
+  --card: #18181b;             /* Zinc-900 (Abu Gelap Solid) */
+  --primary: #bef264;          /* Lime-300 (Hijau Stabilo Modern) */
+  --muted: #71717a;            /* Zinc-500 (Abu-abu teks) */
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  min-height: 100vh;
+  font-family: var(--font-geist-sans), sans-serif; /* Kembali ke font normal */
+}
+
+/* Hapus custom scrollbar aneh, pakai default browser yang minimalis saja */
