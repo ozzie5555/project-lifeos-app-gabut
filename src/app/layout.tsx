@@ -14,8 +14,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// 1. Konfigurasi Tampilan Mobile (PENTING UNTUK PWA)
-// userScalable: false -> Biar user gak bisa zoom-in/out pake dua jari (rasa aplikasi native)
 export const viewport: Viewport = {
   themeColor: "#000000",
   width: "device-width",
@@ -24,18 +22,17 @@ export const viewport: Viewport = {
   userScalable: false,
 };
 
-// 2. Metadata Aplikasi & Link Manifest
 export const metadata: Metadata = {
   title: "LifeOS",
   description: "Personal Operating System Dashboard",
-  manifest: "/manifest.json", // Link ke file konfigurasi install
+  manifest: "/manifest.json",
   icons: {
-    icon: "/icon-192.png",    // Ikon di tab browser
-    apple: "/icon-192.png",   // Ikon di home screen iPhone
+    icon: "/icon-192.png",
+    apple: "/icon-192.png",
   },
   appleWebApp: {
     capable: true,
-    statusBarStyle: "black-translucent", // Bar sinyal/baterai jadi transparan menyatu dengan app
+    statusBarStyle: "black-translucent",
     title: "LifeOS",
   },
   formatDetection: {
@@ -53,9 +50,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
-        <main className="max-w-md mx-auto min-h-screen bg-black relative border-x border-zinc-900 pb-24">
+        {/* PERUBAHAN DI SINI: max-w-lg (Agar lebih lebar) */}
+        <main className="max-w-lg mx-auto min-h-screen bg-black relative border-x border-zinc-900 pb-24">
             
-            {/* LockScreen membungkus semua konten untuk keamanan */}
             <LockScreen>
               <div className="p-4">
                 {children}
