@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 LifeOS - Personal Mobile Dashboard
 
-## Getting Started
+![LifeOS Banner](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![Turso](https://img.shields.io/badge/Turso-Database-cyan?style=for-the-badge)
+![Drizzle](https://img.shields.io/badge/Drizzle-ORM-yellow?style=for-the-badge)
 
-First, run the development server:
+**LifeOS** adalah dashboard personal berbasis web (PWA) yang didesain khusus untuk tampilan Mobile. Aplikasi ini berfungsi sebagai "Sistem Operasi" pribadi untuk mencatat keuangan, target hidup (goals), dan log aktivitas harian dengan keamanan PIN.
 
+## ✨ Fitur Utama
+
+* 🔒 **Secure Lock Screen:** Dilengkapi proteksi PIN 6-digit sebelum masuk dashboard.
+* 💰 **Finance Tracker:** Catat pemasukan dan pengeluaran simpel.
+* 🎯 **Goal/Target System:** Pantau target hidup yang sedang dikejar.
+* 📝 **Activity Logs:** Riwayat aktivitas otomatis tercatat sistem.
+* 📱 **PWA Support:** Bisa diinstall di HP (Android/iOS) layaknya aplikasi native.
+* ⚙️ **Dynamic Settings:** Ganti Nama, PIN, dan Reset Data langsung dari aplikasi.
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **Database:** [Turso](https://turso.tech/) (LibSQL)
+* **ORM:** [Drizzle ORM](https://orm.drizzle.team/)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+
+---
+
+## 🚀 Cara Install & Menjalankan (Local)
+
+Ikuti langkah ini jika ingin menjalankan LifeOS di laptop kamu sendiri.
+
+### 1. Clone Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/ozzie5555/project-lifeos-app-gabut.git](https://github.com/ozzie5555/project-lifeos-app-gabut.git)
+cd project-lifeos-app-gabut
