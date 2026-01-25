@@ -11,9 +11,22 @@
 
 **LifeOS** adalah dashboard personal berbasis web (PWA) yang didesain khusus untuk tampilan Mobile. Aplikasi ini berfungsi sebagai "Sistem Operasi" pribadi untuk mencatat keuangan, target hidup (goals), dan log aktivitas harian dengan keamanan PIN.
 
-[Demo App](https://lifeos-app.vercel.app) · [Report Bug](https://github.com/ozzie5555/project-lifeos-app-gabut/issues) · [Request Feature](https://github.com/ozzie5555/project-lifeos-app-gabut/issues)
+[Report Bug](https://github.com/ozzie5555/project-lifeos-app-gabut/issues) · [Request Feature](https://github.com/ozzie5555/project-lifeos-app-gabut/issues)
 
 </div>
+
+---
+
+## 🧐 Latar Belakang Masalah
+
+Aplikasi ini lahir dari kebutuhan pribadi untuk mengatasi kekacauan dalam manajemen data personal. Seringkali, kita kesulitan mengontrol dan memantau aktivitas penting karena:
+
+* **Platform Tidak Terpusat:** Data keuangan, aktivitas harian, dan target hidup tersebar di berbagai aplikasi atau catatan yang berbeda.
+* **Data Tercecer:** Sulit untuk melacak riwayat karena pencatatan yang tidak konsisten.
+* **Minim Insight:** Sulit melihat progres nyata (goals/keuangan) karena data tidak divisualisasikan dengan rapi.
+* **Aksesibilitas:** Membutuhkan satu platform yang ringan, konsisten, dan mudah diakses layaknya sebuah OS di genggaman.
+
+**LifeOS** hadir sebagai solusi terpusat (Centralized Platform) untuk menyatukan semua kepingan data tersebut menjadi insight yang jelas.
 
 ---
 
@@ -53,3 +66,20 @@ Ikuti langkah ini jika ingin menjalankan LifeOS di laptop kamu sendiri.
 ```bash
 git clone [https://github.com/ozzie5555/project-lifeos-app-gabut.git](https://github.com/ozzie5555/project-lifeos-app-gabut.git)
 cd project-lifeos-app-gabut
+
+2. Install Dependencies
+npm install
+# atau
+pnpm install
+# atau
+yarn install
+
+3. Setup Environment Variables
+Buat file .env di root project dan sesuaikan dengan konfigurasi database Turso kamu:
+TURSO_DATABASE_URL=your_database_url
+TURSO_AUTH_TOKEN=your_auth_token
+
+4. Jalankan Server
+npm run dev
+
+Buka http://localhost:3000 di browser kamu.
