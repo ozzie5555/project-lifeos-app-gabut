@@ -17,16 +17,15 @@
 
 ---
 
-## 🧐 Latar Belakang Masalah
+## 🤔 Kenapa Bikin Ginian? (The 'Why')
 
-Aplikasi ini lahir dari kebutuhan pribadi untuk mengatasi kekacauan dalam manajemen data personal. Seringkali, kita kesulitan mengontrol dan memantau aktivitas penting karena:
+Jujurly, aplikasi ini lahir karena keresahan pribadi saya sendiri. Masalah utamanya klise tapi ngena banget: **Saya sering boros dan susah ngatur duit.**
 
-* **Platform Tidak Terpusat:** Data keuangan, aktivitas harian, dan target hidup tersebar di berbagai aplikasi atau catatan yang berbeda.
-* **Data Tercecer:** Sulit untuk melacak riwayat karena pencatatan yang tidak konsisten.
-* **Minim Insight:** Sulit melihat progres nyata (goals/keuangan) karena data tidak divisualisasikan dengan rapi.
-* **Aksesibilitas:** Membutuhkan satu platform yang ringan, konsisten, dan mudah diakses layaknya sebuah OS di genggaman.
+Seringkali uang habis tapi tidak tahu larinya ke mana, aktivitas harian berantakan, dan target hidup cuma jadi wacana karena tidak pernah dipantau. Mau pakai banyak aplikasi malah ribet pindah-pindah, ujung-ujungnya data tercecer dan malas mencatat.
 
-**LifeOS** hadir sebagai solusi terpusat (Centralized Platform) untuk menyatukan semua kepingan data tersebut menjadi insight yang jelas.
+Akhirnya saya berpikir, *"Kenapa tidak bikin satu sistem saja yang simpel, sat-set, dan bisa mengatur hidup saya langsung dari HP?"*
+
+Jadilah **LifeOS**. Bukan cuma buat gaya-gayaan, tapi memang buat bantu saya (dan mungkin kamu juga) biar hidup lebih teratur dan nggak "autopilot" doang.
 
 ---
 
