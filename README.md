@@ -19,7 +19,7 @@
 
 ## 🤔 Kenapa Bikin Ginian? (The 'Why')
 
-Jujurly, aplikasi ini lahir karena keresahan pribadi saya sendiri. Masalah utamanya klise tapi ngena banget: **Saya sering boros dan susah ngatur duit.**
+Jujur, aplikasi ini lahir karena keresahan pribadi saya sendiri. Masalah utamanya **Saya sering boros dan susah ngatur duit.**
 
 Seringkali uang habis tapi tidak tahu larinya ke mana, aktivitas harian berantakan, dan target hidup cuma jadi wacana karena tidak pernah dipantau. Mau pakai banyak aplikasi malah ribet pindah-pindah, ujung-ujungnya data tercecer dan malas mencatat.
 
